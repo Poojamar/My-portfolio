@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pujitha Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="portfolio.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <h2 class="logo">Pujitha</h2> -->
+                <img src="./img/img05.jpeg" alt="img" height="70" width="70" class="imglogo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">SKills</a></li>
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="bi bi-x-square-fill" onclick="closemenu()"></i>
+                </ul>
+                <i class="bi bi-list" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <div style="display: flex; justify-content: space-between;">
+                    <div style="margin-top:95px ;">
+                        <p>MERN STACK DEVELOPER</p>
+                        <h1>Hi, I'm <span style="color: crimson;">Pujitha Purimitla</span> <br> from Andhra Pradesh</h1>
+                        <h4>"I'm passionate about bringing web development <br>to life with my skills and creativity".
+                        </h4>
+
+                    </div>
+
+                    <div class="header-img">
+                        <img src="./img/img02.jpeg" height="380" width="200" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ********************About*************************** -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="./img/img03.jpeg" height="550" width="370" alt="img">
+                        <ul type="none">
+                            <li> <i class="bi bi-instagram"></i> <a
+                                    href="https://www.linkedin.com/in/pujitha-purimitla92/">Follow me on Linkedin</a>
+                            </li>
+                            <li> <i class="bi bi-github"></i> <a href="https://github.com/Poojamar">Follow me on
+                                    Github</a></li>
+                            <br> <br> <br> <br>
+                            <hr>
+                            <br>
+                            <i class="bi bi-envelope-fill"></i> <a
+                                href="poojaneverlost25@gmail.com">poojaneverlost25@gmail.com</a>
+                        </ul>
+
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <h2>I'm Pujitha Purimitla. A MERN STACK Developer & tech enthusiast in Andhra Pradesh, IN.</h2>
+                        <p>
+                            I'm a traditional first-generation student Completed Bachelor of Science in Computer Science
+                            . I've Completed my Masters of Computer Applications at Acharaya Nagarjuna University As an
+                            aspiring web developer, I am passionate about leveraging technology to create innovative and
+                            user-friendly solutions.</p>
+                        <br>
+
+                        <p>I'm also an intern, gaining hands-on experience in the field. My goal is to use my skills and
+                            experiences to contribute to creating more inclusive and accessible technology, while
+                            inspiring others to pursue careers in tech and break down barriers for underrepresented
+                            groups.</p>
+
+                        <p> This past summer, I interned at ZIDIO Developement , where I worked on developing Zidio Task
+                            Management is a user-friendly platform designed for task organization, progress tracking,
+                            and team collaboration. It features Kanban boards, real-time updates, and seamless
+                            integrations to enhance productivity. Key functionalities include task assignment,
+                            role-based permissions, deadline tracking, and real-time collaboration. Advanced reporting
+                            and analytics help monitor performance, while secure authentication ensures data safety.
+                            Built for teams of all sizes, it streamlines workflows and improves efficiency..</p>
+
+                        <p> In my free time, I enjoy Reading BOOks and recharging by doing Crafting with Wastage, often
+                            taking time to reflect, unwind, or spend quality time with family.</p>
+                    </div>
+                </div>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <dl>
+                        <dt><b>Frontend Developement</b>
+                        <dd>Designing Web/Applications</dd>
+                        </dt>
+                        <dt><b>Web Developement</b>
+                        <dd>Designing Interactive / Responsive web pages</dd>
+                        </dt>
+                        <dt><b>React Developement</b>
+                        <dd>Designing Responsiveness/ Accessibility</dd>
+                        </dt>
+                    </dl>
+                </div>
+                <div class="tab-contents" id="experiance">
+                    <dl>
+                        <dt><b>ZIDIO Developement</b>
+                        <dd>Worked As Intern Developer At Zidio Developement (Banglore) </dd>
+                        </dt>
+                        <dt><b>MERN Stack</b>
+                        <dd>Certified in Full Stack Web Developement <br> MERN
+                            (MongoDB,ExpressJS,ReactJS,NodeJS,HTML&CSS)</dd>
+                        </dt>
+                        <dt><b>Python</b>
+                        <dd>Certified in Python Full Stack <br>(Core Python,Advanced python,Django)</dd>
+                        </dt>
+                    </dl>
+                </div>
+                <div class="tab-contents" id="education">
+                    <dl>
+                        <dt><b>MCA </b>
+                        <dd>Masters in Computer Applications <br>ST Ann's Degree & PG College for Womens (Guntur)
+                            <br><span style="color:green;">80% <span style="color: gray;">(2019-2021)</span></span></dd>
+                        </dt>
+                        <dt><b>BSC </b>
+                        <dd>Batchlores Degree in Computer Science <br>D.S Govt Degree College for women (Ongole)
+                            <br><span style="color: green;">80% <span style="color: gray;">(2016-2019)</span></span>
+                        </dd>
+                        </dt>
+                        <dt><b>Intermediate </b>
+                        <dd>MPC(Mathemetics,Physics,Chemistry) <br>A.P.S.W.R.Jr College (Chimakurthy) <br><span
+                                style="color:green;">73% <span style="color: gray;">(2014-2016)</span></span></dd>
+                        </dt>
+                        <dt><b>SSC </b>
+                        <dd>High School(Mathemetics,Physics,Chemistry) <br> A.P.S.W.R School<br><span
+                                style="color:green;">83% <span style="color: gray;">(2013-2014)</span></span></dd>
+                        </dt>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <!-- ******************Skills********************** -->
+        <div id="Services">
+            <div class="container">
+                <h1 class="subtitle">My SKills</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="bi bi-patch-check"></i>
+                        <h2>INTERNSHIP</h2>
+                        <h4>Intern Developer @ ZIDIO</h4>
+                        <p>Motivated and detail-oriented Web Development Intern with hands-on experience in building
+                            efficient and user-friendly task management solutions. Contributed to the development of
+                            Zidio Task Management, enhancing workflow automation, real-time collaboration, and
+                            role-based access control. Proficient in front-end and back-end technologies, with a focus
+                            on creating seamless user experiences and secure web applications. Passionate about
+                            problem-solving, optimizing workflows, and delivering innovative digital solutions.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="bi bi-filetype-jsx"></i>
+                        <h2>MERN FULLSTACK</h2>
+                        <p>Enthusiastic and detail-oriented MERN Full-Stack Developer with hands-on experience in
+                            building dynamic web applications. Successfully completed 6 months of MERN Full-Stack
+                            Development training at Quality Thought Institute, Hyderabad, gaining expertise in MongoDB,
+                            Express.js, React.js, and Node.js. Developed a personal portfolio website to showcase
+                            projects and skills, along with real-world applications like an E-commerce platform and a
+                            Weather App, integrating APIs, authentication, and responsive UI/UX. Passionate about
+                            crafting scalable, efficient, and user-friendly web solutions while continuously expanding
+                            technical knowledge and problem-solving abilities.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="bi bi-filetype-py"></i>
+                        <h2>PYTHON FULLSTACK</h2>
+                        <p>Motivated and skilled Full-Stack Developer with expertise in MERN and Python technologies.
+                            Successfully completed 6 months of Python Full-Stack Development training at Quality Thought
+                            Institute, Hyderabad, in 2022, mastering Python, Django, Flask, SQL, and REST APIs for
+                            building scalable web applications. Further enhanced development skills through 6 months of
+                            MERN Full-Stack training, gaining proficiency in MongoDB, Express.js, React.js, and Node.js
+                            to create dynamic and responsive web solutions. Passionate about problem-solving, developing
+                            secure applications, and continuously learning new technologies to deliver efficient and
+                            innovative digital solutions.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ................ My Work.................  -->
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="subtitle">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="https://img.freepik.com/free-photo/female-fashion-blogger-streaming-home_23-2148771592.jpg"
+                                height="420px" width="350px" alt="img">
+                            <div class="layer">
+                                <h3>Ecommerce</h3>
+                                <p>Developed a fully functional E-commerce website using HTML, CSS, and JavaScript,
+                                    ensuring a responsive and user-friendly design. Implemented features like product
+                                    listings, shopping cart functionality, and dynamic UI interactions for an enhanced
+                                    user experience. Focused on clean code, performance optimization, and seamless
+                                    navigation to create an engaging shopping platform. Passionate about front-end
+                                    development and building interactive web solutions.</p>
+                                <a href="#"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="work">
+                            <img src="https://miro.medium.com/v2/resize:fit:730/0*SEdGTbPR8hfkTWR2.jpg" height="420px"
+                                width="350px" alt="img">
+                            <div class="layer">
+                                <h3>Portfolio</h3>
+                                <p>Created a professional portfolio website using HTML, CSS, and JavaScript to highlight
+                                    skills, achievements, and projects. Designed responsive layouts with CSS to ensure
+                                    seamless user experience across devices. Incorporated interactive JavaScript
+                                    features such as smooth scrolling, modal popups, and dynamic navigation. Focused on
+                                    clean and reusable code for maintainability and scalability.</p>
+                                <a href="#"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="https://www.shutterstock.com/image-photo/woman-outdoors-on-beach-checking-260nw-2440090259.jpg"
+                                height="420px" width="350px" alt="img">
+                            <div class="layer">
+                                <h3>Weather App</h3>
+                                <p>The Weather App is a web application that fetches real-time weather data from the
+                                    Open Weather API and presents it to the user in a user-friendly UI. Display the
+                                    current weather conditions including temperature, humidity, wind speed, and weather
+                                    description. Allow users to search for weather data of different cities. Responsive
+                                    design to ensure a seamless experience across device. </p>
+                                <a href="#"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <!-- ................Contact Me.............. -->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="subtitle">Contact Me</h1>
+                            <p> <i class="bi bi-envelope-fill"></i> poojaneverlost25@gmail.com</p>
+                            <p> <i class="bi bi-telephone-fill"></i> 8985705201</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/pooja.neverlost/"><i class="bi bi-facebook"></i></a>
+                                <a href="https://github.com/Poojamar"><i class="bi bi-github"></i></a>
+                                <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/pujitha-purimitla92/"><i
+                                        class="bi bi-linkedin"></i></a>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1JmEQaIuiuvbzRPs-l7Ij52oFP4S2noR8/view?usp=sharing"
+                                download="" class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form action="">
+                                <input type="text" name="Name" placeholder="Enter your name" required>
+                                <input type="email" name="Email" placeholder="Enter you Mail" required>
+                                <textarea name="Message" rows="10" placeholder="Your Message "></textarea>
+                                <button class="btn btn2" type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 Pujitha Purimitla. All rights reserved.</p>
+            </div>
+        </div>
+
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+</body>
+
+</html>
